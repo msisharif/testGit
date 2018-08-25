@@ -1,2 +1,2 @@
-# testGit
-This is testing
+# setupGit
+Setting up git
