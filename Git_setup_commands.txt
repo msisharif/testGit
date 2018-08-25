@@ -1,0 +1,28 @@
+### setup: 
+
+1. git config --global user.name "user name"
+
+2. git config --global user.email email_address
+
+3. git clone repository_url(https://github.com/msisharif/testGit.git)
+
+
+
+
+### upload command:
+
+1. cd
+
+2. cd /directory
+
+3. cd git(Folder)/
+
+4. git add fileName
+
+5. git status 
+
+6. git commit -m "first commit(any commit sentence)" fileName
+
+7.git push -u origin master
+
+
