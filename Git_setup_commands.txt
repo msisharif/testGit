@@ -7,25 +7,6 @@
 3. git clone repository_url(https://github.com/msisharif/testGit.git)
 
 
-
-
-### upload command:
-
-1. cd
-
-2. cd /directory
-
-3. cd git(Folder)/
-
-4. git add fileName
-
-5. git status 
-
-6. git commit -m "first commit(any commit sentence)" fileName
-
-7.git push -u origin master
-
-
 ### remote add existing project
 
 1. git init
