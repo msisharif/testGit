@@ -13,11 +13,11 @@
 
 2. git add .
 
-3. git commit -m "first commit(Ex.)" 
+3. git commit -m "first commit" 
 
-4. git remote add origin(nickname) repository address
+4. git remote add origin repository_address
 
-5. git push -u origin(nickname) master
+5. git push -u origin master
 
 
 ###! [rejected] master -> master (fetch first)
