@@ -17,7 +17,7 @@
 
 4. git remote add origin repository_address
 
-5. git push -u origin master
+5. git push -u origin master (if did not work, see below commands)
 
 
 ###! [rejected] master -> master (fetch first)
