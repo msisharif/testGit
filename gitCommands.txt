@@ -1,0 +1,37 @@
+### setup: 
+
+1. git config --global user.name "user name"
+
+2. git config --global user.email "email_address"
+
+3. git clone "repository_url"
+
+
+### remote add existing project
+
+1. git init
+
+2. git remote add origin "repository_address"
+
+3. git checkout master
+
+4. git pull origin master (At the beginning of work)
+
+5. git add . 
+
+6. git commit -m "first commit" 
+
+7. git pull origin master (At the end of work and before push)
+
+8. git push origin master (if did not work, see below commands)
+
+
+###! [rejected] master -> master (fetch first)
+
+1. git fetch origin master:tmp
+
+2. git rebase tmp
+
+3. git push origin HEAD:master
+
+4. git branch -D tmp
