@@ -38,6 +38,7 @@
 
 
 ### Git Important commands:
+
 1. git add index.html |OR| git add *.html
 
 2. git rm --cached index.html
