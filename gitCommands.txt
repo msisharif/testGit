@@ -37,24 +37,27 @@
 4. git branch -D tmp
 
 
-### Git Other commands
+### Git Important commands:
 1. git add index.html |OR| git add *.html
 2. git rm --cached index.html
 3. git status
-4. touch .gitignore //This is for ignoring files
+4. touch .gitignore //This is for creating an ignoring files
  ***  Example:
  ---  log.txt
  ---  /directory 1
  --- *.txt
  
- 5. git branch branch1
- 6. git checkout 'branch1'  |OR|  git checkout 'master' //For switching Branch or Master
- 7. git merge branch1
+5. git branch branch1 //For creating branch
+6. git checkout 'branch1'  |OR|  git checkout 'master' //For switching Branch or Master
+7. git merge branch1 // For merging last branch1
+8. git merge --squash branch1 // For merging last commit of branch1
  *** Command:
  --- i -> Insert
  --- :wq -> Save & Quit
  
- 
-
+9. git branch // For checking Branch list
+10. git log //For commit logs
+11. git master //For switching to Master
+12. git rebase master //For changing branch root commit to master last commit //***** Be Sure before run this command. This can cause Serious Problem in Public Repo *****//
 
 
