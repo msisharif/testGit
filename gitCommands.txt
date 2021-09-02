@@ -23,7 +23,7 @@
 
 7. git pull origin master (At the end of work and before push)
 
-8. git push origin master (if did not work, see below commands)
+8. git push -u origin master (if did not work, see below commands)
 
 
 ###! [rejected] master -> master (fetch first)
@@ -32,7 +32,7 @@
 
 2. git rebase tmp
 
-3. git push origin HEAD:master
+3. git push -u origin HEAD:master
 
 4. git branch -D tmp
 
