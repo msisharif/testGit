@@ -14,27 +14,30 @@ If conflict is encountered, we can run git status to check details about the con
 
 Once we solve the conflicts, or if there is no conflict, we commit and push them
 
-git commit -m 'merge test branch'
-git push
+- git commit -m 'merge test branch'
+- git push
+
 But this way will lose the changes history logged in test branch, and it would make master branch to be hard for other developers to understand the history of the project.
 
 So the best method is we have to use rebase instead of merge (suppose, when in this time, we have solved the branch conflicts).
 
 Following is one simple sample, for advanced operations, please refer to http://git-scm.com/book/en/v2/Git-Branching-Rebasing
 
-git checkout master
-git pull
-git checkout test
-git pull
-git rebase -i master
-git checkout master
-git merge test
+- git checkout master
+- git pull
+- git checkout test
+- git pull
+- git rebase -i master
+- git checkout master
+- git merge test
+
 Yep, when you have uppers done, all the Test branch's commits will be moved onto the head of Master branch. The major benefit of rebasing is that you get a linear and much cleaner project history.
 
 The only thing you need to avoid is: never use rebase on public branch, like master branch.
 
-Never do operations like the following:
+### Never do operations like the following:
 
-git checkout master
-git rebase -i test
+- git checkout master
+- git rebase -i test
+
 Details for https://www.atlassian.com/git/tutorials/merging-vs-rebasing/the-golden-rule-of-rebasing
