@@ -10,7 +10,8 @@ Test merge before commit, avoid a fast-forward commit by --no-ff,
 
 If conflict is encountered, we can run git status to check details about the conflicts and try to solve
 
-git status
+- git status
+
 Once we solve the conflicts, or if there is no conflict, we commit and push them
 
 git commit -m 'merge test branch'
