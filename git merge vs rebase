@@ -21,7 +21,7 @@ But this way will lose the changes history logged in test branch, and it would m
 
 So the best method is we have to use rebase instead of merge (suppose, when in this time, we have solved the branch conflicts).
 
-Following is one simple sample, for advanced operations, please refer to http://git-scm.com/book/en/v2/Git-Branching-Rebasing
+Following is one simple sample, for advanced operations, please refer to [http://git-scm.com/book/en/v2/Git-Branching-Rebasing]
 
 - git checkout master
 - git pull
@@ -40,4 +40,4 @@ The only thing you need to avoid is: never use rebase on public branch, like mas
 - git checkout master
 - git rebase -i test
 
-Details for https://www.atlassian.com/git/tutorials/merging-vs-rebasing/the-golden-rule-of-rebasing
+Details for [https://www.atlassian.com/git/tutorials/merging-vs-rebasing/the-golden-rule-of-rebasing]
