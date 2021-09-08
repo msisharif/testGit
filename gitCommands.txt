@@ -71,3 +71,9 @@
 12. git rebase master //For changing branch root commit to master last commit //***** Be Sure before run this command. This can cause Serious Problem in Public Repo *****//
 
 
+### Git Rollback
+
+1. git revert --no-commit 0766c053..HEAD // Here 0766c053 is commit code
+2. git commit
+
+
