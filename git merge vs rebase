@@ -1,3 +1,4 @@
+
 So, when we suspect there would some conflicts, we can have following git operations:
 
 - git checkout test
@@ -41,8 +42,3 @@ The only thing you need to avoid is: never use rebase on public branch, like mas
 - git rebase -i test
 
 Details for [https://www.atlassian.com/git/tutorials/merging-vs-rebasing/the-golden-rule-of-rebasing]
-
-
-
-
-
