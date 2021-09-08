@@ -1,13 +1,10 @@
 So, when we suspect there would some conflicts, we can have following git operations:
 
-``` git
-git checkout test
-git pull 
-git checkout master
-git pull
-git merge --no-ff --no-commit test
-
-```
+-git checkout test
+-git pull 
+-git checkout master
+-git pull
+-git merge --no-ff --no-commit test
 
 Test merge before commit, avoid a fast-forward commit by --no-ff,
 
